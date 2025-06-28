@@ -6,9 +6,6 @@ This project is a test automation framework that combines Spring Boot with Appiu
 
 ```
 SpringBootAppiumUIFramework/
-├──.github
-│   ├── workflows/
-│   │   ├──ci.yml  
 ├── src/
 │   ├── main/
 │   │   ├── java/
