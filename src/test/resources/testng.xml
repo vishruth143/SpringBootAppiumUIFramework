@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SpringBootSeleniumTestNGTest">
+
+    <test name="Demo Spring Boot Selenium Test">
+
+        <classes>
+            <class name="com.ea.SpringBootAppiumUIFramework.runner.TestRunner"></class>
+        </classes>
+
+    </test>
+
+</suite>
