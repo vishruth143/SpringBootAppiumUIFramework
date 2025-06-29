@@ -1,4 +1,4 @@
-# Spring Boot Selenium UI Framework
+# Spring Boot Appium UI Framework
 
 This project is a test automation framework that combines Spring Boot with Appium, designed to provide a robust and scalable solution for web application testing on mobile/tablet devices.
 
@@ -16,8 +16,10 @@ SpringBootAppiumUIFramework/
 │   │   │               │   └── UIElementExtensions.java
 │   │   │               │   └── WaitHelper.java 
 │   │   │               └── libraries/
-│   │   │               │   └── WebDriverConfig.java 
+│   │   │               │   └── AppiumDriverConfig.java 
 │   │   │               └── utils/
+│   │   │               │   └── AppiumServerManager.java 
+│   │   │               │   └── ConfigPParser.java 
 │   │   │               │   └── ScreenshotUtil.java   
 │   │   │               └── SpringBootAppiumUIFrameworkApplication.java
 │   │   └── resources/
@@ -46,6 +48,10 @@ SpringBootAppiumUIFramework/
 │           │            └── SpringBootAppiumUIFrameworkApplicationTestNGTests.java
 │           │            └── SpringBootAppiumUIFrameworkApplicationTests.java
 │           └── resources/
+│           │   └── drivers/
+│           │       ├── chromedriver.exe
+│           │   └── config/
+│           │       ├── ui_test_data_config.yml
 │               │──testng.xml
 ├── pom.xml
 ├── mvnw
